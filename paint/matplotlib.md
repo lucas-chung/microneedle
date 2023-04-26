@@ -121,7 +121,7 @@ plt.annotate(r'',xy=(1.520e+2,9.007e-6),xycoords='data',xytext=(+20,+100),textco
              fontsize=16,arrowprops=dict(arrowstyle='->',connectionstyle='arc'))
 plt.annotate(r'A',xy=(2.030e+2,1.721e-5),xycoords='data',xytext=(-5,+76),textcoords='offset points',
              fontsize=16,arrowprops=dict(arrowstyle='->',connectionstyle='arc'))
-plt.annotate(r'',xy=(2.630e+2,2.463e-5),xycoords='data',xytext=(-25,+45),textcoords='offset points',
+plt.annotate(r'',xy=(2.630e+2,2.463e-5),xycoords='data',xytext=(-25,+45),textcoords='offset points',  #注意offset points的point一定要加s！
              fontsize=16,arrowprops=dict(arrowstyle='->',connectionstyle='arc'))
 ~~~
 
