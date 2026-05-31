@@ -6,6 +6,10 @@ This project is a custom differential pulse voltammetry, DPV, electrochemical mo
 
 The hardware supports three working electrodes, WE1, WE2, and WE3, switched by an ADG704 analog switch. Each WE channel has been tested separately. The system is designed to support multiple data reading and storage methods, including serial upper-computer communication, WiFi web monitoring, and TF card data logging, so that different data workflows can be selected for different experimental scenarios.
 
+The physical prototype board is shown below.
+
+![AD5941 ESP32-C3 DPV board](img/board.jpg)
+
 2. Current features
 
 The PC upper-computer program can connect to ESP32-C3 through a serial port, configure DPV parameters, configure system parameters, start or stop measurement, display the curve in real time, and save data. The firmware uploads DPV data including working electrode channel, potential, current, differential current, sampling time, and valid flag.
